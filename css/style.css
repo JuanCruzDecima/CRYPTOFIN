@@ -1,0 +1,39 @@
+.bannerImg {
+  height: 350px;
+  object-fit: cover;
+}
+.celularClave {
+  height: 550px;
+  object-fit: scale-down;
+}
+.custom-icon {
+  font-size: 30px;
+}
+.usuariosFinancieros {
+  height: 100px;
+  object-fit: scale-down;
+}
+.app {
+  width: 200px;
+}
+/* Mediaqueries Celulares */
+@media all and (max-width: 767px)  {
+  .customIconFooter {
+    font-size: 20px;
+  }
+}
+/* MediaQueries Tablets */
+@media all and (min-width: 768px) and (max-width: 991px){
+  .cryptoFinInicio{
+    width: 75%;
+  }
+}
+/* MediaQueries Pc y Demas */
+@media (min-width: 992px){
+  .cryptoFinInicio{
+    width: 80%;
+  }
+  .imagenCelular{
+    width: 350px;
+  }
+}
